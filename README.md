@@ -28,4 +28,4 @@ Always do proper risk management and due diligence before entering any trade. Cr
 
 ---
 
-**Note:** This website is hosted on GitHub Pages. You can access it at [https://iamhululu.github.io/](https://iamhululu.github.io/)
+**Note:** This website is hosted on GitHub Pages. You can access it at [https://iamhululu.github.io/calc](https://iamhululu.github.io/calc)
