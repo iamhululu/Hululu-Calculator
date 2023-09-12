@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Hululu Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Position Size Calculator</h1>
+            <label for="riskAmount">Risk Amount (USDT):</label>
+            <input type="number" id="riskAmount" placeholder="Enter Risk Amount" step="0.01" required>
+            
+            <label for="entryPrice">Entry Price:</label>
+            <input type="number" id="entryPrice" placeholder="Enter Entry Price" step="0.01" required>
+            
+            <label for="stoplossPrice">Stoploss Price:</label>
+            <input type="number" id="stoplossPrice" placeholder="Enter Stoploss Price" step="0.01" required>
+            
+            <button id="calculateButton">Calculate</button>
+            
+            <p class="risk-management-text">Always Do Proper Risk Management Before Entering Trade</p>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://discord.com/users/iamhululu" target="_blank">&copy; iamululu</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
